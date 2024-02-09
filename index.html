@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W3.CSS Template</title>
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/2175px-W3Schools_logo.svg.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- phai dat file responsive nay sau file chinh -->
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+
+    <title>The Band</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <ul id="nav">
+          <!-- ve dau trang -->
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">Band</a></li>
+          <li><a href="#tour-section">Tour</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <!-- de dau thang de khong reload lai trang -->
+            <a href="#">
+              More
+              <i class="nav-arrow-down fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="subnav">
+              <li><a href="#">Merchandise</a></li>
+              <li><a href="#">Extras</a></li>
+              <li><a href="#">Media</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- begin search -->
+        <div id="search-btn">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        </div>
+        <!-- end search  -->
+        <!-- mobile menu button -->
+        <div id="mobile-menu" class="mobile-menu-button">
+          <i class="fa-solid fa-bars menu-icon"></i>
+        </div>
+      </div>
+      <!-- begin slider -->
+      <div id="slider">
+        <div class="text-content">
+          <div class="text-heading">Chicago</div>
+          <div class="text-description">
+            Thank you, Chicago - A night we won't forget.
+          </div>
+        </div>
+      </div>
+      <!-- End slider -->
+      <div id="content">
+        <!-- About section -->
+        <div id="about" class="content-section">
+          <h2 class="section-heading">The Band</h2>
+          <p class="section-sub-heading">We love music</p>
+          <p class="about-text">
+            We have created a fictional band website. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+          </p>
+          <div class="row member-list">
+            <div class="col col-third">
+              <p class="member-name">Name</p>
+              <img
+                src="https://www.w3schools.com/w3images/bandmember.jpg"
+                alt=""
+                class="member-img"
+              />
+            </div>
+            <div class="col col-third">
+              <p class="member-name">Name</p>
+              <img
+                src="https://www.w3schools.com/w3images/bandmember.jpg"
+                alt=""
+                class="member-img"
+              />
+            </div>
+            <div class="col col-third">
+              <p class="member-name">Name</p>
+              <img
+                src="https://www.w3schools.com/w3images/bandmember.jpg"
+                alt=""
+                class="member-img"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Tour section -->
+        <div id="tour-section">
+          <div class="content-section">
+            <h2 class="section-heading">TOUR DATES</h2>
+            <p class="section-sub-heading">Remember to book your tickets!</p>
+            <ul class="tickets-list">
+              <li>
+                September <span class="sold-out white-text">Sold out</span>
+              </li>
+
+              <li>October <span class="sold-out white-text">Sold out</span></li>
+
+              <li>November <span class="quantity white-text">3</span></li>
+            </ul>
+            <div id="row tour-list">
+              <div class="col col-third">
+                <img
+                  src="https://www.w3schools.com/w3images/newyork.jpg"
+                  alt=""
+                  class="img-tour"
+                />
+                <div class="tour-infor">
+                  <b class="tour-name">New York</b>
+                  <p class="tour-date-start">Fri 27 Nov 2016</p>
+                  <p class="tour-description">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <button class="js-buy-ticket btn white-text">
+                    <a href="">Buy Tickets</a>
+                  </button>
+                </div>
+              </div>
+              <div class="col col-third">
+                <img
+                  src="https://www.w3schools.com/w3images/paris.jpg"
+                  alt=""
+                  class="img-tour"
+                />
+                <div class="tour-infor">
+                  <b class="tour-name">Paris</b>
+                  <p class="tour-date-start">Sat 28 Nov 2016</p>
+                  <p class="tour-description">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <button class="js-buy-ticket btn white-text">
+                    <a href="">Buy Tickets</a>
+                  </button>
+                </div>
+              </div>
+              <div class="col col-third">
+                <img
+                  src="https://www.w3schools.com/w3images/sanfran.jpg"
+                  alt=""
+                  class="img-tour"
+                />
+                <div class="tour-infor">
+                  <b class="tour-name">San Francisco </b>
+                  <p class="tour-date-start">Sun 29 Nov 2016</p>
+                  <p class="tour-description">
+                    Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                  </p>
+                  <button class="js-buy-ticket btn white-text">
+                    <a href="">Buy Tickets</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Begin contact -->
+        <div id="contact" class="content-section">
+          <h2 class="section-heading">Contact</h2>
+          <p class="section-sub-heading">Fan? Drop a note!</p>
+          <div class="row contact-content">
+            <div class="col col-two contact-infor">
+              <p><i class="fa-solid fa-location-dot"></i>Chicago, US</p>
+              <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+              <p><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</p>
+            </div>
+            <div class="col col-two contact-form">
+              <form action="">
+                <div class="row">
+                  <div class="col col-two">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      class="form-control"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <div class="col col-two">
+                    <input
+                      type="email"
+                      name=""
+                      id=""
+                      class="form-control"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="row mt-8">
+                  <div class="col col-full">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      class="form-control"
+                      placeholder="Message"
+                      required
+                    />
+                  </div>
+                </div>
+                <input
+                  class="mt-16 btn pull-right"
+                  type="submit"
+                  value="SEND"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- End contact section -->
+        <!-- begin map -->
+        <div class="map-section">
+          <img
+            class="map-img"
+            src="https://www.w3schools.com/w3images/map.jpg"
+            alt=""
+          />
+          <!-- <p>thai</p> -->
+        </div>
+        <!-- End map -->
+      </div>
+      <!-- End content -->
+      <!-- Begin footer -->
+      <div id="footer">
+        <div class="footer-social-network">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-snapchat"></i>
+          <i class="fa-brands fa-pinterest-p"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="source">
+          <p>
+            Powered by
+            <a
+              href="https://www.w3schools.com/w3css/default.asp"
+              target="_blank"
+              >w3.css</a
+            >
+          </p>
+        </div>
+      </div>
+      <!-- End footer -->
+    </div>
+    <!-- modal -->
+    <div class="modal js-modal">
+      <div class="modal-container js-modal-container">
+        <header class="modal-header">
+          <i class="fa-solid fa-bag-shopping"></i>
+          Tickets
+        </header>
+        <!-- X exit -->
+        <div class="modal-close js-hide-modal">
+          <i class="fa-solid fa-x"></i>
+        </div>
+        <div class="modal-body">
+          <label for="quantity" class="modal-label">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Tickets, $15 per person
+          </label>
+          <input
+            id="quantity"
+            type="text"
+            class="modal-input"
+            placeholder="How many?"
+          />
+
+          <label for="send-email" class="modal-label">
+            <i class="fa-solid fa-user"></i>
+            Send To
+          </label>
+          <input
+            id="send-email"
+            type="email"
+            class="modal-input"
+            placeholder="Enter email"
+          />
+          <button id="pay-btn">
+            PAY
+            <i class="fa-solid fa-check"></i>
+          </button>
+          <footer>
+            <button class="close-x js-hide-modal">
+              Close
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <p class="modal-help">Need <a href="">help?</a></p>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <!-- script open or close modal -->
+    <script>
+      // nhan vao cac button nay de open
+      const buyBtns = document.querySelectorAll(".js-buy-ticket");
+
+      //nhan vao 2 but nay de tat
+      const closeBtns = document.querySelectorAll(".js-hide-modal");
+
+      // .modal bi them vao
+      const modal = document.querySelector(".js-modal");
+
+      // khai bao jsmodal container
+      const modalContainer = document.querySelector(".js-modal-container");
+
+      // function showBuyTickets
+      function showBuyTickets() {
+        modal.classList.add("open");
+      }
+
+      function hideModal() {
+        modal.classList.remove("open");
+      }
+
+      for (const buyBtn of buyBtns) {
+        buyBtn.addEventListener("click", function (event) {
+          showBuyTickets();
+          event.preventDefault();
+        });
+      }
+
+      for (const closeBtn of closeBtns) {
+        // function closeModal
+        closeBtn.addEventListener("click", hideModal);
+      }
+      modal.addEventListener("click", hideModal);
+      modalContainer.addEventListener("click", function (event) {
+        event.stopPropagation();
+      });
+
+      // tao javascript cho header Menu
+      var header = document.getElementById("header");
+      // test coi da nhan duoc header chua
+      console.log(header);
+
+      var mobileMenu = document.getElementById("mobile-menu");
+      console.log(mobileMenu);
+
+      // bien nay de luu chieu cao cua header
+      var headerHeight = header.clientHeight;
+
+      // hien chieu cao cua cai minh vua click
+      mobileMenu.onclick = function () {
+        // console.log(header.clientHeight);
+        var isClosed = header.clientHeight === headerHeight;
+        if (isClosed) {
+          // height auto : mo
+          header.style.height = "auto";
+        } else {
+          // height 46px : dong
+          // phai reset height sau khi bam--> hide duoc cai menu
+          header.style.height = null;
+        }
+      };
+      // auto open and close menu
+      var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+      // console.log(menuItems);
+      for(var i = 0; i < menuItems.length; i++){
+        var menuItem = menuItems[i];
+
+        // test thu co lay duoc cac the a khong
+        // console.log(menuItem);
+        // ngoai tru thang more la khong hide menu
+
+        menuItem.onclick = function(){
+          // in ra thang cuoi cung
+          // console.log(menuItem);
+          
+          // test co bat dung the khong
+          // console.log(this);
+          header.style.height = null;
+        }
+
+      }
+    </script>
+  </body>
+</html>
